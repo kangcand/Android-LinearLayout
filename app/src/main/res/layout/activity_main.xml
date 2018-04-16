@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.server2.candra.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LinearLayout1"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Merah"
+            android:gravity="center_horizontal"
+            android:background="@color/colorMerah"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="Hijau"
+            android:gravity="center_horizontal"
+            android:background="@color/colorHijau"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="Biru"
+            android:gravity="center_horizontal"
+            android:background="@color/colorBiru"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="Kuning"
+            android:gravity="center_horizontal"
+            android:background="@color/colorKuning"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LinearLayout2"
+        android:layout_weight="1">
+        <TextView
+            android:text="Baris Pertama"
+            android:background="@color/colorMerah"
+            android:textSize="15pt"
+            android:textColor="@color/colorHitam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Baris Kedua"
+            android:background="@color/colorHijau"
+            android:textSize="15pt"
+            android:textColor="@color/colorHitam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Baris Ketiga"
+            android:background="@color/colorBiru"
+            android:textSize="15pt"
+            android:textColor="@color/colorHitam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Baris Ke empat"
+            android:background="@color/colorKuning"
+            android:textSize="15pt"
+            android:textColor="@color/colorHitam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
