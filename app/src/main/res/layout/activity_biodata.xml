@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.server2.candra.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/Bio1"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:id="@+id/Bio2">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="Nama : "
+                    android:padding="10dp" />
+                <TextView
+                    android:text="Dadang Conelo"
+                    android:gravity="left"
+                    android:padding="10dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="Kelas : "
+                    android:padding="10dp" />
+                <TextView
+                    android:text="XII RPL 1"
+                    android:gravity="left"
+                    android:padding="10dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="Alamat : "
+                    android:padding="10dp" />
+                <TextView
+                    android:text="Ciwalini"
+                    android:gravity="left"
+                    android:padding="10dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="Nama Orang Tua : "
+                    android:padding="10dp" />
+                <TextView
+                    android:text="Ujang Simpati"
+                    android:gravity="left"
+                    android:padding="10dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="Nama Orang Tua : "
+                    android:padding="10dp" />
+                <TextView
+                    android:text="Ujang Simpati"
+                    android:gravity="left"
+                    android:padding="10dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
